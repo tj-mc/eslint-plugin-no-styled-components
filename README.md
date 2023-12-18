@@ -1,6 +1,6 @@
 # eslint-plugin-no-styled-components
 
-Prevent imports and usages of styled-components
+Prevent imports and usages of styled-components.
 
 ## Installation
 
@@ -18,7 +18,7 @@ npm install eslint-plugin-no-styled-components --save-dev
 
 ## Usage
 
-Add `no-styled-components` to the plugins section of your `.eslintrc` configuration file. You can omit the `eslint-plugin-` prefix:
+Add `no-styled-components` to the plugins section of your `.eslintrc` configuration file as shown below. You can omit the `eslint-plugin-` prefix:
 
 ```json
 {
@@ -31,6 +31,9 @@ Add `no-styled-components` to the plugins section of your `.eslintrc` configurat
 
 Then configure the rules you want to use under the rules section.
 
+You can choose to ban imports of `styled-components`, just their usages (e.g. `styled.div`), or both.
+
+
 ```json
 {
     "rules": {
@@ -39,11 +42,3 @@ Then configure the rules you want to use under the rules section.
     }
 }
 ```
-
-## Rules
-
-<!-- begin auto-generated rules list -->
-TODO: Run eslint-doc-generator to generate the rules list.
-<!-- end auto-generated rules list -->
-
-
