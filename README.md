@@ -34,7 +34,8 @@ Then configure the rules you want to use under the rules section.
 ```json
 {
     "rules": {
-        "no-styled-components/rule-name": 2
+        "no-styled-components/imports": 2, // <-- 2 is error, 1 is warning, 0 is off
+        "no-styled-components/usages": 1
     }
 }
 ```
