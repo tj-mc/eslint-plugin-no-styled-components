@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-no-styled-components",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Prevent imports and usages of styled-components",
   "keywords": [
     "eslint",
