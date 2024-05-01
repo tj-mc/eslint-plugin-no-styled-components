@@ -1,5 +1,8 @@
 # eslint-plugin-no-styled-components
 
+![](https://img.shields.io/npm/d18m/eslint-plugin-no-styled-components)
+![](https://img.shields.io/npm/v/eslint-plugin-no-styled-components)
+
 Prevent imports and usages of styled-components.
 
 ## Installation
